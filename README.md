@@ -24,3 +24,12 @@ Implementação da técnica Principal Component Analysis(PCA) no conjunto de dad
 
 ## Resultados
 
+ - Autovalores em forma creciente:
+ 
+ - Responsabilidade na variância:
+ 
+ - Reconstrução dos dados com 2 componentes principais
+ 
+ ![alt text](https://github.com/Artcs1/PCA/blob/master/Pca_fig.png "Logo Title Text 1")
+ 
+ ## Conclusões
