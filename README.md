@@ -10,8 +10,9 @@ Implementação da técnica Principal Component Analysis(PCA) no conjunto de dad
 
 ## Apresentação
  - Iris: O conjunto de dados contém 3 classes de 50 instâncias cada classe,onde cada classe se refere a um tipo de planta
+ <div class = text-justify >
  - Pca: É um procedimento estatístico que usa uma transformação ortogonal para converter um conjunto de observações de variáveis possivelmente correlacionadas em um conjunto de valores de variáveis linearmente não correlacionadas, chamadas componentes principais.
-
+</div>
 ## Descrição de atividades
 
 1.
