@@ -2,5 +2,5 @@
 
 Autor:
 
-- **Jeffry Erwin Murrugarra Llerena**
+- **Jeffri Erwin Murrugarra Llerena**
     * *USP #* **10655837** 
