@@ -14,13 +14,13 @@ Implementação da técnica Principal Component Analysis(PCA) no conjunto de dad
 
 
 ## Descrição de atividades
- 1. Ler o dataset iris, excluir a classe Y
- 2. Padronize os dados $ X_i $ para estes tenham média igual a 0 e variância igual a 1
- 3. Calcule a matrix de covariância
- 4. Obter os autovetores e autovalores
- 5. Ordenar de forma decrecente
- 6. Fazer a redução de dimensionalidade( escolher k compenentes ) 
- 7. Construa os novos dados a partir das componentes principais
+ - Ler o dataset iris, excluir a classe Y
+ - Padronize os dados $ X_i $ para estes tenham média igual a 0 e variância igual a 1
+ - Calcule a matrix de covariância
+ - Obter os autovetores e autovalores
+ - Ordenar de forma decrecente
+ - Fazer a redução de dimensionalidade( escolher k compenentes ) 
+ - Construa os novos dados a partir das componentes principais
 
 ## Resultados
 
