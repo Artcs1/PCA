@@ -9,9 +9,8 @@ Autor:
 Implementação da técnica Principal Component Analysis(PCA) no conjunto de dados Iris.
 
 ## Apresentação
-1.Iris
-
-2.PCA
+ - Iris: O conjunto de dados contém 3 classes de 50 instâncias cada classe,onde cada classe se refere a um tipo de planta
+ - PCA: 
 
 ## Descrição de atividades
 
