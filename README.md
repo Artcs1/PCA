@@ -46,7 +46,7 @@ Autor:
  
  **Reconstrução dos dados com 2 componentes principais:**
  
- ![alt text](https://github.com/Artcs1/PCA/blob/master/Pca_fig.png "Logo Title Text 1")
+ ![alt text](https://raw.githubusercontent.com/Artcs1/PCA/master/Pca_fig.png "Logo Title Text 1")
  
  ## Conclusões
  
