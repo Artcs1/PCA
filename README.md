@@ -29,6 +29,8 @@ Autor:
  
    - Construa os novos dados a partir das componentes principais
    
+   - Visualizar a matrix
+   
 ## Resultados
 ### Autovalores em forma creciente ###
  
