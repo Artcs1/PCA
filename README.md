@@ -28,6 +28,9 @@ Autor:
  
    - Construa os novos dados a partir das componentes principais
 
+
+
+
 ## Resultados
 ### Autovalores em forma creciente ###
  
