@@ -30,21 +30,21 @@ Autor:
 
 ## Resultados
 
- **Autovalores em forma creciente:**
+ ### Autovalores em forma creciente ###
  
  - PCA1: 4.204387062618799
  - PCA2: 0.2431457932719668
  - PCA3: 0.07905127565884043
  - PCA4: 0.023843040588977134
  
- **Responsabilidade na variância:**
+ ### Responsabilidade na variância ###
  
   - PCA1: 92.39543681440453%
   - PCA2: 5.343361932275352%
   - PCA3: 1.7372275759703761%
   - PCA4: 0.5239736773497581%
  
- **Reconstrução dos dados com 2 componentes principais:**
+ ### Reconstrução dos dados com 2 componentes principais ###
  
  ![alt text](./Pca_fig.png "Logo Title Text 1")
  
