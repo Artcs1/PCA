@@ -24,13 +24,11 @@ Autor:
    - Obter os autovetores e autovalores
  
    - Ordenar de forma decrecente
+   
    - Fazer a redução de dimensionalidade( escolher k compenentes ) 
  
    - Construa os novos dados a partir das componentes principais
-
-
-
-
+   
 ## Resultados
 ### Autovalores em forma creciente ###
  
