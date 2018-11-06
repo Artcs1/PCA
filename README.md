@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+# Principal Component Analysis - Iris
 
-You can use the [editor on GitHub](https://github.com/Artcs1/PCA/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Autor:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- **Jeffri Erwin Murrugarra Llerena**
+    * *USP #* **10655837** 
 
-### Markdown
+## Resumo
+   Implementação da técnica Principal Component Analysis(PCA) no conjunto de dados Iris.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Apresentação
+   - **Iris** : O conjunto de dados contém 3 classes de 50 instâncias cada classe,onde cada classe se refere a um tipo de planta
+ 
+   - **PCA** : É um procedimento estatístico que usa uma transformação ortogonal para converter um conjunto de observações de variáveis possivelmente correlacionadas em um conjunto de valores de variáveis linearmente não correlacionadas, chamadas componentes principais.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Descrição de atividades
+   - Ler o dataset iris, excluir a classe Y
+ 
+   - Padronize os dados X_i para estes tenham média igual a 0 e variância igual a 1
+ 
+   - Calcule a matrix de covariância
+ 
+   - Obter os autovetores e autovalores
+ 
+   - Ordenar de forma decrecente
+   
+   - Fazer a redução de dimensionalidade( escolher k compenentes ) 
+ 
+   - Construa os novos dados a partir das componentes principais
+   
+   - Visualizar a matrix
+   
+## Resultados
+### Autovalores em forma creciente ###
+ 
+ | PCA1 | PCA2 | PCA3 | PCA4 |
+ | ---- |:----:| ----:| ----:|
+ | 4.204387062618799 | 0.2431457932719668| 0.07905127565884043 | 0.023843040588977134 |
+ 
+### Responsabilidade na variância ###
 
-- Bulleted
-- List
+ | PCA1 | PCA2 | PCA3 | PCA4 |
+ | ---- |:----:| ----:| ----:|
+ | 92.3954368140453% | 5.34336193227535% | 1.7372275759703761% | 0.5239736773497581% |
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Artcs1/PCA/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Reconstrução dos dados com 2 componentes principais ###
+ 
+ ![alt text](./Pca_fig.png "Logo Title Text 1")
+ 
+## Conclusões
+ 
+  - Redução da dimensionalidade com 2 componentes,é responsavel do  97.738798746679882% da variância
+  - Pode-se enxergar que uma classe é linearmente separável das outras dois
