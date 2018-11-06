@@ -43,3 +43,6 @@ Implementação da técnica Principal Component Analysis(PCA) no conjunto de dad
  ![alt text](https://github.com/Artcs1/PCA/blob/master/Pca_fig.png "Logo Title Text 1")
  
  ## Conclusões
+ 
+  - Redução da dimensionalidade com 2 componentes,é responsavel do  97.738798746679882% da variância
+  - Pode-se enxergar que uma classe é linearmente separável das outras dois
