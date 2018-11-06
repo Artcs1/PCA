@@ -38,7 +38,7 @@ def PCA(data,comp = 2):
     print("\nResponsabilidade na variância")
     for i in eig_pairs:
         print('PCA'+ str(ind) + ': ' + str((i[0]/suma) * 100) + '%')
-        if ind < comp :
+        if ind - 1 < comp  :
             suma_porcentaje = suma_porcentaje + i[0]
         ind = ind+1
     print("\nRedução da dimensionalidade com "+ str(comp) + " componentes,é responsavel do " + str(suma_porcentaje/suma * 100) + "% da variância")
