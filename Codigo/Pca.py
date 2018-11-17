@@ -8,8 +8,10 @@ def iris(data):
 
 def preprocessing(data):
     # media 0 e variância 1
+    data = np.array(data,dtype = np.float32)
+    scale = np.std(data, axis = 0)
     X = data - sp.mean(data,axis = 0)
-    return X
+    return X/scale
     
 def PCA(data,comp = 2):
     n = data.shape[1]
@@ -47,6 +49,7 @@ def PCA(data,comp = 2):
     matrix_w = np.hstack((eig_pairs[0][1].reshape(n,1), eig_pairs[1][1].reshape(n,1)))
     
     transformed = matrix_w.T.dot(data.T)
+
     return transformed
 
 
@@ -65,7 +68,7 @@ def graficar(transformed):
     return 
 
 def main():
-    datos = pd.read_csv("iris.data",sep = ",") 
+    datos = pd.read_csv("./../Data/iris.data",sep = ",") 
     X = datos.values
     X = iris(X)
     X = preprocessing(X)
@@ -73,8 +76,3 @@ def main():
     graficar(T)
 if __name__ == "__main__":
     main()
-
-
-
-
-
